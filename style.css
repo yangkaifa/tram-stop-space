@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+
+h1 {
+    color: darkgreen;
+}
+
+.space-object {
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border: 3px solid black;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+#bench {
+    width: 200px;
+    height: 80px;
+    background-color: brown;
+    display: none;
+}
+
+button {
+    padding: 10px 16px;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#bin {
+    width: 100px;
+    height: 120px;
+    background-color: darkgray;
+    display: none;
+}
